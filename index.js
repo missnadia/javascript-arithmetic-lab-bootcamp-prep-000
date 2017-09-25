@@ -26,4 +26,5 @@ function makeInt(x) {
 function preserveDecimal(z) {
   var z = 0.456;
   parseFloat(z);
+  return z;
 }
