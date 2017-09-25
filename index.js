@@ -25,7 +25,7 @@ function makeInt(x) {
 }
 function isNaN(a) {
   var a = 'nonsense!';
-  parseInt(a, 10);
+  parseFloat(a);
 return a;
 }
 function preserveDecimal(z) {
