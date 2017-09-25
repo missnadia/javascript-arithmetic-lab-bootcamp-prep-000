@@ -23,6 +23,11 @@ function makeInt(x) {
   parseInt(x, 10);
   return x;
 }
+function makeInt(b) {
+  var b = '3.456'
+  parseInt(b, 10);
+  return b;
+}
 function isNaN(a) {
   var a = 'nonsense!';
   parseFloat(a);
