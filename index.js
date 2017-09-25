@@ -24,7 +24,7 @@ function makeInt(x) {
   return x;
 }
 function makeInt(b) {
-  var b = '3.456'
+  var b = '0.456'
   parseInt(b, 10);
   return b;
 }
