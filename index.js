@@ -27,7 +27,10 @@ var a = 'apple';
 function isNaN(a) {
   if(a === NaN) {
     return 'true';
+} else {
+    return 'false';
   }
+}
 }
 function preserveDecimal(z) {
   var z = '0.456';
