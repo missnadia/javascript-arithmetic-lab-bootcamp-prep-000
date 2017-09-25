@@ -26,10 +26,10 @@ function makeInt(x) {
 function isNaN(a) {
   var a = 'nonsense!';
   parseInt(a, 10);
-  return a;
+  return ;
 }
 function preserveDecimal(z) {
   var z = '0.456';
   parseFloat(z);
-  return z;
+  return parseInt(z, 10);
 }
