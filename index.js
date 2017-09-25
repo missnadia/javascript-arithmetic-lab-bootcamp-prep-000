@@ -23,4 +23,3 @@ function makeInt(x) {
   parseInt(x, 10);
   return x;
 }
-
