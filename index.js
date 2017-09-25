@@ -27,6 +27,3 @@ function preserveDecimal(x) {
   parseInt('0.456', 10);
   return x;
 }
-function preserveDecimal('nonsense!') {
-  parseInt('nonsense', 10);
-}
