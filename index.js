@@ -24,6 +24,7 @@ function makeInt(x) {
   return x;
 }
 function isNaN(a) {
+  var a = 'nonsense!'
 parseInt('nonsense!', 10);
 return a;
 }
