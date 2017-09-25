@@ -24,7 +24,7 @@ function makeInt(x) {
   return x;
 }
 function preserveDecimal(x) {
-  parseInt(0.456, 10);
+  parseInt('0.456', 10);
   return x;
 }
 function preserveDecimal('nonsense!') {
