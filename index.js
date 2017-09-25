@@ -29,5 +29,5 @@ function isNaN(a) {
 function preserveDecimal(z) {
   var z = '0.456';
   parseFloat(z);
-  return parseInt(z, 10);
+  return parseInt(z);
 }
