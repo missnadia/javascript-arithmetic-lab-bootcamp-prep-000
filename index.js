@@ -27,7 +27,6 @@ function isNaN(a) {
 parseInt('nonsense!', 10);
 return a;
 }
-
 function preserveDecimal(z) {
   var z = 0.456;
   parseFloat(z);
