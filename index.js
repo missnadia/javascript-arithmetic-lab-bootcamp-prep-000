@@ -23,8 +23,7 @@ function makeInt(x) {
   parseInt(x, 10);
   return x;
 }
-function isNaN(a) {
-  return a;
+isNaN(a);
 }
 function preserveDecimal(z) {
   var z = '0.456';
