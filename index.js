@@ -24,8 +24,10 @@ function makeInt(x) {
   return x;
 }
 var a = 'apple';
-isNaN(a);
-return a;
+function isNaN(a) {
+  if(a === NaN) {
+    return 'true';
+  }
 }
 function preserveDecimal(z) {
   var z = '0.456';
