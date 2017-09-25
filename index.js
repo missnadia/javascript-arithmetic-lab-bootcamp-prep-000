@@ -28,4 +28,5 @@ function preserveDecimal(z) {
   parseFloat(z);
   return z;
 }
-parseInt('apple', 10);
+parseInt(f, 10);
+var f = 'apple';
