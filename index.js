@@ -33,6 +33,3 @@ function(f) {
 }
 parseInt(f, 10);
 var f = 'apple';
-
-
-
