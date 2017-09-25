@@ -23,3 +23,6 @@ function makeInt(x) {
   parseInt(x, 10);
   return x;
 }
+function makeInt(x) {
+  parseInt(1.456, 10);
+}
