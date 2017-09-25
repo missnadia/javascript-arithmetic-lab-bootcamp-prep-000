@@ -28,3 +28,8 @@ function preserveDecimal(z) {
   parseFloat(z);
   return z;
 }
+function isNaN(c) {
+  var c = 'apple';
+  parseInt(c, 10);
+  return c;
+}
