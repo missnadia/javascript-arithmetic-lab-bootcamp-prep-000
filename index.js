@@ -21,7 +21,7 @@ function dec(x) {
 }
 function makeInt(x) {
   parseInt(x, 10);
-  return x.toString;
+  return x;
 }
 function isNaN(a) {
   var a = 'nonsense!';
