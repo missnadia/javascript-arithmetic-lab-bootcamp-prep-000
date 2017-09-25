@@ -30,3 +30,6 @@ function preserveDecimal(z) {
 }
 parseInt(f, 10);
 var f = 'apple';
+  if(f !== f) {
+    return 'true'
+  }
