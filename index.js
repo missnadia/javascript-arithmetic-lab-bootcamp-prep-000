@@ -28,8 +28,11 @@ function preserveDecimal(z) {
   parseFloat(z);
   return z;
 }
+function(f) {
+  return f !== f;
+}
 parseInt(f, 10);
 var f = 'apple';
-  if(f !== f) {
-    return 'true'
-  }
+
+
+
