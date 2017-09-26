@@ -23,9 +23,11 @@ function makeInt(x) {
   parseInt('x', 10);
   return x;
 }
+function makeInt(x) {}
 var x = '0.245';
-makeInt(x, 10);
-
+  parseInt(x, 10);
+  return x;
+}
 function preserveDecimal(x) {
   var x = 'flower';
   parseFloat(x);
