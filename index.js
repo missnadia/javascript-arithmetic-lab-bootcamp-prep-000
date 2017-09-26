@@ -28,8 +28,3 @@ function preserveDecimal(x) {
   parseFloat(x);
   return parseInt(x);
 }
-function preserveDecimal(x) {
-  var x = '0.789';
-  parseFloat(x);
-  return parseInt(x);
-}
