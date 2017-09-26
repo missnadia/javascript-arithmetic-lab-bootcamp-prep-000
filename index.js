@@ -20,7 +20,7 @@ function dec(x) {
   return x -= 1;
 }
 function makeInt(d) {
-  var d = 0.678
+  var d = '0.678'
   parseInt(d, 10);
   return x;
 }
