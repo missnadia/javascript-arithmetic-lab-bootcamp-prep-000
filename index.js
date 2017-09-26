@@ -30,3 +30,4 @@ function preserveDecimal(x) {
 }
 var x = 'flower';
 isNaN(x) == isNaN(Number(x));
+return x;
