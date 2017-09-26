@@ -20,9 +20,8 @@ function dec(x) {
   return x -= 1;
 }
 function makeInt(x) {
-  var x = 2.2222
   parseInt('x', 10);
-  console.log(x);
+  return x;
 }
 function preserveDecimal(x) {
   var x = 'flower';
