@@ -25,7 +25,7 @@ function makeInt(x) {
 }
 function preserveDecimal(x) {
 var x = 4.7;
-return parseInt(4.7, 10);
+return parseInt(x, 10);
 
 function preserveDecimal(x) {
   var x = 'flower';
