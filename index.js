@@ -19,10 +19,10 @@ function inc(x) {
 function dec(x) {
   return x -= 1;
 }
-function makeInt(d) {
-  var d = '0.678'
-  parseInt(d, 10);
-  return d;
+function makeInt(x) {
+  var x = '0.678'
+  parseInt(x, 10);
+  return x;
 }
 function preserveDecimal(z) {
   var z = '0.456';
