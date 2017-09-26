@@ -21,8 +21,9 @@ function dec(x) {
 }
 function makeInt(x) {
   parseInt('x', 10);
-  console.log(x);
+  return x;
 }
+makeInt(parseInt(x, 10));
 function preserveDecimal(x) {
   var x = 'flower';
   parseFloat(x);
