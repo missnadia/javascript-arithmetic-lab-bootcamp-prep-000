@@ -22,7 +22,7 @@ function dec(x) {
 function makeInt(d) {
   var d = '0.678'
   parseInt(d, 10);
-  return x;
+  return d;
 }
 function preserveDecimal(z) {
   var z = '0.456';
