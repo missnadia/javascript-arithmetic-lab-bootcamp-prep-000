@@ -21,12 +21,7 @@ function dec(x) {
 }
 function makeInt(x) {
   parseInt('x', 10);
-  return x;
-}
-function makeInt(x) {
-var x = '0.245';
-  parseInt(x, 10);
-  return x;
+  console.log(x);
 }
 function preserveDecimal(x) {
   var x = 'flower';
