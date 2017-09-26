@@ -23,10 +23,10 @@ function makeInt(x) {
   parseInt('x', 10);
   return x;
 }
-function preserveDecimal(z) {
-  var z = '0.456';
-  parseFloat(z);
-  return z;
+function preserveDecimal(x) {
+  var x = '0.456';
+  parseFloat(x);
+  return x;
 }
 parseInt(f, 10);
 var f = 'apple';
