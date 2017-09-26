@@ -29,4 +29,3 @@ function preserveDecimal(x) {
   return x;
 }
 isNaN(NaN);
-}
