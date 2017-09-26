@@ -28,4 +28,4 @@ function preserveDecimal(x) {
   parseFloat(x);
   return x;
 }
-parseInt('flower', 10);
+parseFloat('flower');
