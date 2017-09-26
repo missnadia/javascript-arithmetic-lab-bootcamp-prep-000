@@ -34,4 +34,3 @@ var f = 'apple';
 function preserveDecimal {
   return f !== f;
 }
-preserveDecimal('NaN');
