@@ -22,7 +22,7 @@ function dec(x) {
 function makeInt(x) {
   var x = 2.2222
   parseInt('x', 10);
-  return x;
+  console.log(x);
 }
 function preserveDecimal(x) {
   var x = 'flower';
