@@ -29,4 +29,4 @@ function preserveDecimal(x) {
   return parseInt(x);
 }
 var x = 'flower';
-return isNaN(x) == isNaN(Number(x));
+console.log(isNaN(x) == isNaN(Number(x)));
