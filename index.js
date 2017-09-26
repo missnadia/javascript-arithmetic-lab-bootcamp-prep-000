@@ -26,6 +26,6 @@ function makeInt(x) {
 function preserveDecimal(x) {
   var x = '0.456';
   parseFloat(x);
-  return x;
+  return parseInt(x);
 }
 isNaN(NaN);
