@@ -31,6 +31,6 @@ function preserveDecimal(z) {
 }
 parseInt(f, 10);
 var f = 'apple';
-function preserveDecimal {
+function isNaN(f) {
   return f !== f;
 }
