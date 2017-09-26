@@ -28,4 +28,6 @@ function preserveDecimal(x) {
   parseFloat(x);
   return x;
 }
-isNaN('flower');
+var isNaN = function('flower') {
+    return Number.isNaN(Number('flower'));
+}
