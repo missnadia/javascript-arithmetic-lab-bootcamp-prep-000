@@ -19,8 +19,9 @@ function inc(x) {
 function dec(x) {
   return x -= 1;
 }
-function makeInt(x) {
-  parseInt(x, 10);
+function makeInt(d) {
+  var d = 0.678
+  parseInt(d, 10);
   return x;
 }
 function preserveDecimal(z) {
@@ -30,3 +31,7 @@ function preserveDecimal(z) {
 }
 parseInt(f, 10);
 var f = 'apple';
+function preserveDecimal {
+  return f !== f;
+}
+preserveDecimal('NaN');
