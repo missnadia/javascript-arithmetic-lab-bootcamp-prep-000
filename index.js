@@ -23,6 +23,7 @@ function makeInt(x) {
   parseInt('x', 10);
   return x;
 }
+var x = '0.245';
 makeInt(x, 10);
 
 function preserveDecimal(x) {
